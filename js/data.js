@@ -297,7 +297,6 @@ let data_bookshop=[
 	precio: 3500
 	}]
 
-	// En tu archivo HTML, asegúrate de que tienes una referencia a data.js y este script.
 
 // Función para realizar la búsqueda
 function buscarLibros(query) {
