@@ -32,12 +32,14 @@
                     <li class="nav-item"><a class="nav-link" href="./pages/carrito.html" title="cart"><iconify-icon icon="iconoir:cart" class="cart"></iconify-icon></a></li>
                 </ul>
             </nav>
+        </div>    
             <form class="busqueda" action="/busqueda" method="get">
                 <input type="search" name="busqueda" id="busqueda"
                     placeholder="Ingresar título, autor, editorial, ISBN">
                 <label for="busqueda"><iconify-icon icon="gg:search" class="search-icon"></iconify-icon></label>
             </form>
-        </div>
+                <div id="resultados"></div> <!-- Este div mostrará los resultados de la búsqueda -->
+        
     </header> <!-- Fin Header -->
 
     <main id="inicio" class="general"> <!-- Inicio del contenedor principal -->
@@ -255,6 +257,10 @@
 
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
         <script src="./js/index.js"></script>
+        <script src="./js/data.js"></script>
+        <script src="./js/form.js" ></script>
+        <script src="./js/carrito.js" ></script>
+        
 </body>
 
 </html>

@@ -34,6 +34,66 @@
                 <label for="busqueda"><iconify-icon icon="gg:search" class="search-icon"></iconify-icon></label>
             </form>
         </div>
+        <!-- <section class="contenedor">
+            <aside> carrito de compras -->
+                <!-- <div class="carrito">
+                    <div class="header-carrito">
+                        <h2>Tu Carrito</h2>
+                    </div>
+         
+                    <div class="carrito-items">
+                        <div class="carrito-item">
+                            <img src="logo.png" alt="" width="80px">
+                            <div class="carrito-item-detalles">
+                                <span class="carrito-item-titulo">Box1</span>
+                                <div class="selector-cantidad">
+                                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                                    <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                                    <i class="fa-solid fa-plus suma-cantidad"></i>
+                                </div>
+                                <span class="carrito-item-precio">$15.000</span>
+                            </div>
+                            <span>
+                                <iconify-icon icon="octicon:trash-24" class="btn-eliminar"></iconify-icon>
+                            </span>
+                        </div>
+                    </div> -->
+                    <section class="contenedor">
+                        <aside>
+                            <div class="carrito">
+                                <div class="header-carrito">
+                                    <h2>Tu Carrito</h2>
+                                </div>
+                                <div class="carrito-items">
+                                    <!-- Aquí se agregarán los elementos del carrito dinámicamente -->
+                                </div>
+                                <div class="carrito-total">
+                                    <div class="fila">
+                                        <strong>Tu Total</strong>
+                                        <span class="carrito precio-total">
+                                            $0 <!-- Inicialmente el total es 0 -->
+                                        </span>
+                                    </div>
+                                    <button class="btn-pagar" onclick="confirmarCompra()">Pagar <i class="fa-solid fa-sack-dollar"></i></button>
+                                </div>
+                            </div>
+                        </aside>
+                    </section>
+                
+        
+                    <div class="carrito-total">
+                        <div class="fila">
+                            <strong>Tu Total</strong>
+                            <span class="carrito precio-total">
+                                $0
+                            </span>
+                        </div>
+                        <button class="btn-pagar">Pagar <i class="fa-solid fa-sack-dollar"></i></button>
+                    </div>
+                </div>
+            </aside> <!-- carrito de compras -->
+        </section>
+        
     </header> <!-- Fin Header -->
     <section class="contenedor">
         <!--contenedor de los elementos-->
@@ -103,43 +163,6 @@
             </div>
     </section>
 
-    <section class="contenedor">
-        <aside> <!-- carrito de compras -->
-            <div class="carrito">
-                <div class="header-carrito">
-                    <h2>Tu Carrito</h2>
-                </div>
-    
-                <div class="carrito-items">
-                    <div class="carrito-item">
-                        <img src="logo.png" alt="" width="80px">
-                        <div class="carrito-item-detalles">
-                            <span class="carrito-item-titulo">Box1</span>
-                            <div class="selector-cantidad">
-                                <i class="fa-solid fa-minus restar-cantidad"></i>
-                                <input type="text" value="1" class="carrito-item-cantidad" disabled>
-                                <i class="fa-solid fa-plus suma-cantidad"></i>
-                            </div>
-                            <span class="carrito-item-precio">$15.000</span>
-                        </div>
-                        <span>
-                            <iconify-icon icon="octicon:trash-24" class="btn-eliminar"></iconify-icon>
-                        </span>
-                    </div>
-                </div>
-    
-                <div class="carrito-total">
-                    <div class="fila">
-                        <strong>Tu Total</strong>
-                        <span class="carrito precio-total">
-                            $15.000
-                        </span>
-                    </div>
-                    <button class="btn-pagar">Pagar <i class="fa-solid fa-sack-dollar"></i></button>
-                </div>
-            </div>
-        </aside> <!-- carrito de compras -->
-    </section>
         <!-- Inicio Footer -->
         <footer>
             <section class="footer">
@@ -177,6 +200,8 @@
 
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
         <script src="../js/index.js"></script>
+        <script src="../js/carrito.js" ></script>
+        <script src="../js/data.js"></script>
 
 </body>
 </html>
